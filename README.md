@@ -1,3 +1,10 @@
+# this is here to remind myself
+Because a .gitignore is generated when you generate a project, and it contains the line that excludes the node_modules repository from being pushed. This is done because the folder can be very heavy (several hundreds of Mb), and it would cause your pushes to be very long, and not up-to-date with your semver. If other users want to run your project locally:
+
+1. clone the repo
+2. `npm i`
+3. `ng serve`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
